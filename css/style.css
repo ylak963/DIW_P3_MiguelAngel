@@ -1,0 +1,502 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.position {
+  top: 20px;
+}
+nav.navbar ul.nav li {
+  font-weight: 800;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+}
+/* nav.navbar ul.nav li nav-item{
+  color:red
+} */
+h1 {
+  font-family: "Aboreto";
+  color: rgb(227, 224, 42);
+}
+
+h2 {
+  font-family: "Aboreto";
+  color: rgb(227, 224, 42);
+}
+
+#tituloCarast,
+#tituloPersonal,
+.tituloValores {
+  font-family: "Mulish", sans-serif;
+  color: rgb(227, 224, 42); /*Variar*/
+}
+
+/***Inicio***/
+
+/**Carrusel**/
+.carousel-item {
+  height: 100vh;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100vw;
+  min-height: 100vh; /*Revisar tamaño*/
+}
+
+.carousel-caption h1 {
+  font-family: "Mulish", sans-serif;
+}
+
+#EsloganInicio {
+  font-family: "Aboreto", cursive;
+  /* font-family: 'Mulish', sans-serif; */
+}
+#logoInicio {
+  width: 20rem;
+  height: 20rem;
+}
+#logoNav {
+  width: 200px;
+  height: 200px;
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+#Presentacion2{
+
+  text-align: center;
+}
+}
+
+/***Productos Inmuebles***/
+
+.card-img-inmuebles {
+  width: 100%;
+  height: 40vh;
+  max-height: 406px;
+  border-radius: 0px;
+  object-fit: cover;
+}
+/* .card inmuebles-card{
+  color: darkgoldenrod;
+} */
+.card-body h5 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+#fondoComun {
+  margin: auto;
+  width: 18rem;
+}
+
+.my-row-buscarInmuebles {
+  padding-top: 4rem;
+  padding-left: 45rem;
+}
+@media (max-width: 992px) {
+  .my-row-buscarInmuebles {
+    padding-left: 15rem;
+  }
+}
+@media (max-width: 768px) {
+  .my-row-buscarInmuebles {
+    padding-left: 8rem;
+  }
+}
+@media (max-width: 576px) {
+  .my-row-buscarInmuebles {
+    padding-left: 2rem;
+  }
+}
+.form-control {
+  margin: 0 auto;
+}
+
+/*** Servicios***/
+
+.my-row-servicios {
+  /* z-index: 0; */
+  padding-top: 10.125rem;
+}
+#serviciosMarco {
+  /* padding-top: 3rem; */
+  border: 1px solid #a8eb12;
+  border-radius: 1%;
+}
+#serviciosMarco1 {
+  padding-top: 6rem;
+  border: 1px solid #a8eb12;
+  border-radius: 1%;
+}
+#imgServi {
+  border-radius: 20px;
+}
+
+#parrafoServic {
+  color: #a8eb12;
+  text-align: justify;
+}
+
+#imgServi {
+  margin-top: 0.7rem;
+  border: 1px solid #a8eb12;
+}
+
+.my-row-servicios p::first-letter {
+  /* font-size: 1.2em; */
+  color: darkgoldenrod;
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+  #serviciosMarco1 {
+    padding-top: 1rem;
+  }
+  #imgServi2 {
+    padding-top: 7rem;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  #serviciosMarco1 {
+    order: 2;
+  }
+  #serviciosMarco {
+    order: 2;
+  }
+  #imgServi {
+    order: 1;
+  }
+  #imgServi2 {
+    order: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  #serviciosMarco1 {
+    padding-top: 1rem;
+  }
+  #imgServi {
+    height: 95%;
+  }
+}
+
+/***Quienes somos***/
+
+/*Títulos de quienes somos*/
+#tituloRojoSomos {
+  color: crimson;
+}
+p {
+  color: white;
+}
+li {
+  color: white;
+}
+.my-row-history p::first-letter {
+  font-size: 1.2em;
+  color: darkgoldenrod;
+}
+.my-row-hacemos p::first-letter {
+  font-size: 1.2em;
+  color: darkgoldenrod;
+}
+.my-row-valores p::first-letter {
+  font-size: 1.2em;
+  color: darkgoldenrod;
+}
+.my-row-vision p::first-letter {
+  font-size: 1.2em;
+  color: darkgoldenrod;
+}
+.my-row-history {
+  padding-top: 10rem;
+}
+
+#imagenQuienesLogo2 {
+  /* object-fit: cover;  */
+  width: 90%;
+  height: 90%; 
+}
+
+.my-row-valores,
+.my-row-vision,
+.my-row-hacemos,
+.my-row-equipo,
+.my-row-reseñas,
+.my-row-inmueble {
+  padding-top: 2rem;
+}
+
+#imagenVision {
+  border-radius: 50%;
+}
+@media (max-width: 576px) {
+  #fotoVision {
+    order: 1;
+  }
+  #parrafoVision {
+    order: 2;
+  }
+}
+#iconosVal {
+  color: white;
+}
+#rolEquipo {
+  color: coral;
+}
+.card p {
+  color: black;
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+
+  #equipoImag {
+    padding: 0rem 2rem 0rem 2rem;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  #imagenQuienesLogo2{
+    order:1
+  }
+  #textoHistoria{
+    order:2;
+  }  
+}
+
+/***Contactos***/
+
+form {
+  margin-top: 3.125rem;
+  /* z-index: 0; */
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.my-row-contacto {
+  padding-top: 10rem;
+}
+#imagenForm {
+  padding-top: 7rem;
+}
+@media (max-width: 992px) {
+  #imagenForm {
+    padding-top: 10.5rem;
+  }
+}
+@media (max-width: 768px) {
+  #imagenForm {
+    padding-top: 2rem;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 576px) {
+  #imagenForm {
+    order: 1;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+  #formulario {
+    order: 2;
+    padding: 0rem 1rem 0rem 0rem;
+  }
+  #botonForm {
+    padding: 0rem 12rem 0rem 12rem;
+  }
+}
+
+/***Blog***/
+
+.my-row-blogNoticias {
+  padding-top: 12rem;
+}
+
+#colorNews {
+  /* background-color:aquamarine; */
+
+  /* background-image: linear-gradient(to right top, #9a2567, #cb3a4d, #de6b25, #d1a300, #a0d920); */
+  background-image: linear-gradient(
+    to right top,
+    #488ac6,
+    #00a8d7,
+    #00c1bd,
+    #00d27c,
+    #a0d920
+  );
+}
+
+@media (min-width: 1200px) {
+  #imageNoticia {
+    width: 414px;
+    height: 235px;
+  }
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+  #imageNoticia {
+    width: 294px;
+    height: 190px;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  #imageNoticia {
+    width: 334px;
+    height: 222px;
+  }
+}
+#Categoria {
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+}
+#SubCategoria {
+  font-weight: bold;
+  color: #04294c;
+}
+#contenidoNoticia {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  font-size: medium;
+}
+code{
+  font-weight: bold;
+}
+
+/***FONDOS PERSONALIZADOS DEGRADADOS***/
+
+/** Fondo Inicio **/
+#fondoInicio {
+  background-image: linear-gradient(
+    to right,
+    #29081a,
+    #2a0d24,
+    #29132e,
+    #251938,
+    #1d2042,
+    #172346,
+    #102649,
+    #04294c,
+    #04294c,
+    #04294c,
+    #04294c,
+    #04294c
+  );
+  color: rgb(227, 224, 42);
+}
+
+#inmueble {
+  background-image: linear-gradient(
+    to top,
+    #29081a,
+    #2e091e,
+    #320921,
+    #370a25,
+    #3c0a29,
+    #391134,
+    #32183e,
+    #291f46,
+    #04294c,
+    #003048,
+    #00343f,
+    #043734
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem;
+}
+
+/** Fondo servicios **/
+#fondoServi {
+  background-image: linear-gradient(
+    to right top,
+    #29081a,
+    #2a0d24,
+    #29132e,
+    #251938,
+    #1d2042,
+    #172346,
+    #102649,
+    #04294c,
+    #04294c,
+    #04294c,
+    #04294c,
+    #04294c
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/** Fondo quienes somos **/
+#fondoSomos {
+  background-image: radial-gradient(
+    circle,
+    #29081a,
+    #2a0d24,
+    #29132e,
+    #251938,
+    #1d2042,
+    #172346,
+    #102649,
+    #04294c,
+    #04294c,
+    #04294c,
+    #04294c,
+    #04294c
+  );
+}
+
+/** Fondo contactos **/
+#fondoContacto {
+  background-image: linear-gradient(
+    to right bottom,
+    #29081a,
+    #2a0d24,
+    #29132e,
+    #251938,
+    #1d2042,
+    #172346,
+    #102649,
+    #04294c,
+    #04294c,
+    #04294c,
+    #04294c,
+    #04294c
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/** Fondo blog **/
+#fondoBlog {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+footer {
+  font-family: "Montserrat", sans-serif;
+  padding: 120px;
+  color: white;
+  font-weight: 400px;
+}
+.form-label,
+.form-check-label {
+  color: darkmagenta;
+  font-weight: bold;
+}
+#redesSocialesBlog{
+  color:red;
+}
+/*Carrusel */
+/* #carrusel {
+    height: auto;
+    padding-top: 8rem;
+  } */
